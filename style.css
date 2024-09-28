@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    min-height: 100vh;
+}
+.border {
+    border: 2px solid black;
+    border-radius: .9rem;
+    background-color: rgb(43, 40, 40);
+    width: 100%;
+    height: 700px;
+    margin: 0 auto 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+img {
+    width: 50%;
+    border-radius: 50%;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    color: rgb(220, 64, 64);
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+}
+.linksB {
+    background-color: rgb(68, 68, 68);
+    color: beige;
+    border-radius: 15px;
+    width: 75%;
+    height: 50px;
+    margin: 0 auto 0;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    border: none;
+    transition-duration: o.2s;
+}
+button:hover {
+    background-color: rgb(220, 64, 64);
+    cursor: pointer;
+}
+@media screen and (max-width: 576px;) {
+    .border {
+        width: 20rem;
+        height: 45rem;
+    
+    }
+    .border img {
+        margin: 2rem 0;
+    }
+
+}
